@@ -1,0 +1,75 @@
+
+/* all */
+
+@media screen and (max-width: 1100px) and (min-width: 1025px) {
+    
+    header {
+        background-color: red;
+         display: flex;
+     }
+ 
+     header h1 {
+         font-size: 25px;
+         padding: 10px;
+     }
+ 
+     header a {
+         font-size: 20px;
+         margin: 6px;
+         padding: 2px;
+     }
+     
+     header nav#direita {
+         padding-right: 8px;
+ 
+     }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    header {
+       background-color: red;
+        display: flex;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    header a {
+        font-size: 16px;
+        margin: 2px;
+        padding: 2px;
+    }
+    
+    header nav#direita {
+        padding-right: 8px;
+
+    }
+
+    /* page basquete */
+
+    div#conteudo-basquete {
+        display: flex;
+        flex-direction: column;
+        margin-top: 85px;
+    }
+
+
+    div#conteudo-basquete img {
+        width: auto;
+        max-height: 400px;
+    }
+
+    div#conteudo02-basquete {
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    
+    div#conteudo02-basquete img {
+        width: auto;
+        max-height: 300px;
+    }
+}
