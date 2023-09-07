@@ -1,28 +1,52 @@
 
 /* all */
 
-@media screen and (max-width: 1100px) and (min-width: 1025px) {
+@media screen and (max-width: 1265px) and (min-width: 1025px) {
     
     header {
         background-color: red;
          display: flex;
-     }
+    }
  
-     header h1 {
+    header h1 {
          font-size: 25px;
          padding: 10px;
-     }
+    }
  
-     header a {
+    header a {
          font-size: 20px;
          margin: 6px;
          padding: 2px;
-     }
+    }
      
-     header nav#direita {
+    header nav#direita {
          padding-right: 8px;
  
-     }
+    }
+
+    #conteudo03-F1 img {
+        width: 300px;
+        
+    }
+
+    #conteudo04-fut img {
+        width: 300px;
+    }
+
+    #conteudo05-nat img {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    #conteudo06-surf img {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    #conteudo07-volei img {
+        width: 300px;
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -50,26 +74,137 @@
 
     /* page basquete */
 
-    div#conteudo-basquete {
+    #conteudo-basquete {
         display: flex;
         flex-direction: column;
         margin-top: 85px;
     }
 
 
-    div#conteudo-basquete img {
+    #conteudo-basquete img {
         width: auto;
         max-height: 400px;
-    }
+    } 
 
-    div#conteudo02-basquete {
+    #conteudo03-F1 {
         display: flex;
         flex-direction: column;
-        
-    } 
-    
-    div#conteudo02-basquete img {
+    }
+
+    #conteudo03-F1 img {
         width: auto;
-        max-height: 300px;
+        
+    }
+
+    #conteudo04-fut {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo04-fut img {
+        width: auto;
+    }
+
+    #conteudo05-nat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo05-nat img {
+        width: auto;
+        
+    }
+
+    #conteudo06-surf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo06-surf img {
+        width: auto;
+    }
+
+    #conteudo07-volei {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo07-volei img {
+        width: auto;
+        margin: 9px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #conteudo-basquete {
+        display: flex;
+        flex-direction: column;
+        margin-top: 85px;
+    }
+
+
+    #conteudo-basquete img {
+        width: auto;
+        max-height: 400px;
+    } 
+
+    #conteudo02-basquete {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo02-basquete img {
+        display: none;
+        
+    }
+
+    #conteudo03-F1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo03-F1 img {
+        width: auto;
+        
+    }
+
+    #conteudo04-fut {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo04-fut img {
+        width: auto;
+    }
+
+    #conteudo05-nat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo05-nat img {
+        width: auto;
+        
+    }
+
+    #conteudo06-surf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo06-surf img {
+        width: auto;
+    }
+
+
+    #conteudo07-volei {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo07-volei img {
+        width: auto;
+        margin: 9px;
     }
 }
