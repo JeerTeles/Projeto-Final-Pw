@@ -135,7 +135,24 @@
     }
 }
 
+@media screen and (max-width: 945px) {
+    .carrossel {
+        width: 90vw;
+        height: 70%;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
+
+    .carrossel {
+        width: 100vw;
+        height: 55%;
+    }
+
+    .navegacao {
+        width: 80%;
+    }
 
     #conteudo-basquete {
         display: flex;
@@ -206,5 +223,11 @@
     #conteudo07-volei img {
         width: auto;
         margin: 9px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .carrossel {
+       height: 60vw;
     }
 }
