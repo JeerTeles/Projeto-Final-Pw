@@ -139,19 +139,40 @@
     .carrossel {
         width: 90vw;
         height: 70%;
+        
+    }
+
+    .navegacao {
+        width: 90%;
+        justify-content: center; 
     }
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 601px ) {
+ 
+     header h1 {
+         display: none;
+     }
+ 
+     header a {
+         font-size: 16px;
+         margin: 2px;
+         padding: 2px;
+     }
+     
+     header nav#direita {
+         padding-right: 8px;
+ 
+     }
 
     .carrossel {
-        width: 100vw;
+        width: 90vw;
         height: 55%;
     }
 
     .navegacao {
-        width: 80%;
+        width: 90%; 
     }
 
     #conteudo-basquete {
@@ -226,8 +247,56 @@
     }
 }
 
-@media screen and (max-width: 527px) {
-    .carrossel {
-       height: 60vw;
+
+@media screen and (max-width: 600px) and (min-width: 526px) {
+    header {
+        background-color: green;
+         display: flex;
+     }
+ 
+     header h1 {
+         display: none;
+     }
+ 
+     header a {
+         font-size: 16px;
+         margin: 2px;
+         padding: 2px;
+     }
+     
+     header nav#direita {
+         display: none;
+     }
+
+     .navegacao {
+        width: 90%;
+        justify-content: center; 
+    }
+}
+
+@media screen and (max-width: 527px) and (min-width: 400px) {
+
+    header {
+        background-color: pink;
+         display: flex;
+     }
+ 
+     header h1 {
+         display: none;
+     }
+ 
+     header a {
+         font-size: 16px;
+         margin: 2px;
+         padding: 2px;
+     }
+     
+     header nav#direita {
+         display: none;
+     }
+    
+    .navegacao {
+        width: 90%; 
+        justify-content: center; 
     }
 }
