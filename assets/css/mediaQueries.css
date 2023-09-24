@@ -1,26 +1,31 @@
 
 /* all */
 
-@media screen and (max-width: 1265px) and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
     
     header {
         background-color: red;
-         display: flex;
+        display: flex;
     }
  
     header h1 {
-         font-size: 25px;
-         padding: 10px;
+        display: none;
+    }
+
+    header h2 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 10px;
     }
  
     header a {
-         font-size: 20px;
-         margin: 6px;
-         padding: 2px;
+        font-size: 20px;
+        margin: 6px;
+        padding: 2px;
     }
      
     header nav#direita {
-         padding-right: 8px;
+        padding-right: 8px;
  
     }
 
@@ -47,18 +52,27 @@
         width: 300px;
         margin-left: 15px;
     }
+
+    #content-collum {
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 992px) {
 
     header {
-       background-color: red;
+       background-color: purple;
         display: flex;
     }
 
     header h1 {
         font-size: 20px;
         padding-top: 10px;
+    }
+
+    header h2 {
+        display: none;
     }
 
     header a {
@@ -133,9 +147,47 @@
         width: auto;
         margin: 9px;
     }
+
+    #content-collum {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 992px) and (min-width: 767px) {
+
+    header {
+        background-color: green;
+         display: flex;
+    }
+
+    header {
+        display: flex;
+        font-size: .5rem;
+        font-weight: bold;
+        margin: 1px;
+        padding: 1px;
+    }
+
+    header h1 {
+        margin: 2px;
+        font-size: 1.3rem;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    nav a {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    nav#direita {
+        display: flex;
+    }
+
     .carrossel {
         width: 90vw;
         height: 70%;
@@ -143,36 +195,66 @@
     }
 
     .navegacao {
+        margin: 40px;
         width: 90%;
-        justify-content: center; 
     }
 
+    #conteudo07-volei {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #conteudo07-volei img {
+        width: 700px;
+    }
+
+    #content-collum {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 767px) and (min-width: 601px ) {
+@media screen and (max-width: 767px) and (min-width: 600px ) {
  
+    header {
+        background-color: blue;
+         display: flex;
+    }
+
+    header {
+        display: flex;
+    }
+
      header h1 {
-         display: none;
+         display: block;
+         font-size: .9rem;
+         font-weight: bold;
+     }
+
+     header h2 {
+        display: none;
      }
  
      header a {
-         font-size: 16px;
-         margin: 2px;
-         padding: 2px;
+         font-size: .8rem;
+         font-weight: bold;
+         margin: 1px;
+         padding: 1px;
      }
      
-     header nav#direita {
-         padding-right: 8px;
- 
+    nav#direita {
+        display: flex;
      }
 
     .carrossel {
-        width: 90vw;
+        width: 99vw;
         height: 55%;
     }
 
     .navegacao {
-        width: 90%; 
+        width: 60%;
+        margin-left: 0px;
     }
 
     #conteudo-basquete {
@@ -245,48 +327,38 @@
         width: auto;
         margin: 9px;
     }
-}
 
+    #conteudo07-volei {
+        display: none;
+    }
 
-@media screen and (max-width: 600px) and (min-width: 526px) {
-    header {
-        background-color: green;
-         display: flex;
-     }
- 
-     header h1 {
-         display: none;
-     }
- 
-     header a {
-         font-size: 16px;
-         margin: 2px;
-         padding: 2px;
-     }
-     
-     header nav#direita {
-         display: none;
-     }
+    #conteudo07-volei-1 {
+        display: none;
+    }
 
-     .navegacao {
-        width: 90%;
-        justify-content: center; 
+    #conteudo07-volei-collum img{
+        width: 520px;
+        height: 400px;
+        border-radius: 5px; 
+        box-shadow: 5px 3px rgba(128, 128, 128, 0.438);
+        margin-left: 45px;   
+        margin-top: 20px; 
     }
 }
 
-@media screen and (max-width: 527px) and (min-width: 400px) {
 
+@media screen and (max-width: 600px) {
     header {
-        background-color: pink;
+        background-color: aqua;
          display: flex;
      }
  
-     header h1 {
+     header h1, h2 {
          display: none;
      }
  
      header a {
-         font-size: 16px;
+         font-size: 1rem;
          margin: 2px;
          padding: 2px;
      }
@@ -294,9 +366,31 @@
      header nav#direita {
          display: none;
      }
-    
-    .navegacao {
-        width: 90%; 
-        justify-content: center; 
+
+     .carrossel {
+        width: 99vw;
+        height: 55%;
+    }
+
+     .navegacao {
+        width: 90vw;
+        margin-bottom: 60px;
+    }
+
+    #conteudo07-volei {
+        display: none;
+    }
+
+    #conteudo07-volei-1 {
+        display: none;
+    }
+
+    #conteudo07-volei-collum img{
+        width: 400px;
+        height: 400px;
+        border-radius: 5px; 
+        box-shadow: 5px 3px rgba(128, 128, 128, 0.438);
+        margin-left: 45px;   
+        margin-top: 20px; 
     }
 }
