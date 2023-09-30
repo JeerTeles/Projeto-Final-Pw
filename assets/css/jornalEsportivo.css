@@ -89,10 +89,6 @@ nav, a{
     border-radius: 5px;
 }
 
-a#nenu:hover{
-    background: red;
-}
-
 .carrossel{
     height: 520px;
     width: 935px;
