@@ -42,12 +42,13 @@
         flex-direction: row;
     }
 
-    #conteudo02-basquete img {
-       width: calc(50%);
+    #conteudo03-F1 {
+        display: flex;
+        flex-direction: row;
     }
 
     #conteudo03-F1 img {
-        width: 300px;
+        width: calc(32%);
     }
 
     #conteudo04-fut img {
@@ -232,6 +233,15 @@
 
     #conteudo02-basquete img {
         width: calc(100%);
+    }
+
+    #conteudo03-F1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #conteudo03-F1 img {
+        width: calc(32%);
     }
 
     #conteudo07-volei {
@@ -437,6 +447,15 @@
 
     #conteudo-basquete img {
        width: calc(100%);
+    }
+
+    #conteudo03-F1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo03-F1 img {
+        width: calc(100%);
     }
 
     #conteudo07-volei {
